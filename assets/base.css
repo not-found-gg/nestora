@@ -2400,7 +2400,7 @@ product-price.text-block:is(.h1, .h2, .h3, .h4, .h5, .h6) .volume-pricing-note {
   font-weight: 700;
   line-height: 1.2;
   white-space: nowrap;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .price__hidden {
