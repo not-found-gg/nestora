@@ -932,7 +932,9 @@
         "text_DbHMj3",
         "accordion_gkPP6R"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "[data-testid=\"section-content\"] {max-width: 992px; margin-inline: auto;}"
+      ],
       "name": "t:names.faq_section",
       "settings": {
         "content_direction": "column",
@@ -940,7 +942,7 @@
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "center",
         "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "center",
+        "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
         "gap": 32,
         "section_width": "page-width",
