@@ -214,6 +214,18 @@
                         "padding-inline-end": 0
                       },
                       "blocks": {
+                        "review_m3RVcq": {
+                          "type": "review",
+                          "settings": {
+                            "stars_style": "shaded",
+                            "show_number": true,
+                            "rating_color": "primary",
+                            "type_preset": "paragraph",
+                            "width": "100%",
+                            "alignment": "left"
+                          },
+                          "blocks": {}
+                        },
                         "price_WRfkDh": {
                           "type": "price",
                           "settings": {
@@ -235,23 +247,11 @@
                             "padding-inline-end": 0
                           },
                           "blocks": {}
-                        },
-                        "review_m3RVcq": {
-                          "type": "review",
-                          "settings": {
-                            "stars_style": "shaded",
-                            "show_number": true,
-                            "rating_color": "primary",
-                            "type_preset": "paragraph",
-                            "width": "100%",
-                            "alignment": "left"
-                          },
-                          "blocks": {}
                         }
                       },
                       "block_order": [
-                        "price_WRfkDh",
-                        "review_m3RVcq"
+                        "review_m3RVcq",
+                        "price_WRfkDh"
                       ]
                     }
                   },
