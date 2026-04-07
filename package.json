@@ -1,0 +1,19 @@
+{
+  "name": "nestora",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github-freelance:not-found-gg/nestora.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "shopify theme dev --store nestora07.myshopify.com",
+    "dev:legacy": "shopify theme dev --legacy --store nestora07.myshopify.com",
+    "push": "shopify theme push --store nestora07.myshopify.com",
+    "logout": "shopify auth logout"
+  }
+}
