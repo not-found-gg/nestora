@@ -933,7 +933,8 @@
         "accordion_gkPP6R"
       ],
       "custom_css": [
-        ".accordion {max-width: 992px; margin-inline: auto;}"
+        ".accordion {max-width: 992px; margin-inline: auto;}",
+        ".text-block--ARHh-6YWNBclRxQ1Z6R__text_DbHMj3 {text-align: center; width: 100%; max-width: 100%;}"
       ],
       "name": "t:names.faq_section",
       "settings": {
