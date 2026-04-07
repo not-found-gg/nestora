@@ -15,8 +15,11 @@
   assign compare_at_price = selected_variant.compare_at_price
 
   assign show_compare_price = false
+  assign discount_percentage = 0
   if compare_at_price > price
     assign show_compare_price = true
+    assign discount_amount = compare_at_price | minus: price
+    assign discount_percentage = discount_amount | times: 100 | divided_by: compare_at_price
   endif
 
   if product_resource == blank
@@ -114,6 +117,9 @@
           <span class="visually-hidden">{{ 'content.price_regular' | t }}&nbsp;</span>
           <span class="price-item--regular compare-at-price">{{- compare_at_price -}}</span>
         </span>
+        <span class="price-item__group">
+          <span class="price-discount-percentage">{{ discount_percentage }}% OFF {% render 'tag.svg' %}</span>
+        </span>
       {% else %}
         <span class="price-item__group">
           <span class="visually-hidden">{{ 'content.price_regular' | t }}&nbsp;</span>
@@ -122,6 +128,9 @@
         <span class="price-item__group">
           <span class="visually-hidden">{{ 'content.price_sale' | t }}&nbsp;</span>
           <span class="price-item--sale price">{{ price | default: '&nbsp;' }}</span>
+        </span>
+        <span class="price-item__group">
+          <span class="price-discount-percentage">{{ discount_percentage }}% OFF {% render 'tag.svg' %}</span>
         </span>
       {% endif %}
     </div>
