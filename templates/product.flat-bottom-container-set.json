@@ -679,7 +679,7 @@
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
-            "type_preset": "custom",
+            "type_preset": "h3",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
             "line_height": "tight",
@@ -701,6 +701,7 @@
       "block_order": [
         "text_Kmc6QY"
       ],
+      "custom_css": [],
       "name": "t:names.marquee_section",
       "settings": {
         "movement_direction": "normal",
