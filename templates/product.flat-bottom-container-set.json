@@ -1060,9 +1060,7 @@
         "accordion_gkPP6R"
       ],
       "custom_css": [
-        "[data-testid=\"section-content\"] {max-width: 992px; margin-inline: auto;}",
-        ".text-block--ARHh4YWNBclRxQ1Z6R__text_DbHMj3 {width: 100%; display: flex; justify-content: center; align-items: center;}",
-        ".text-block--ARHh4YWNBclRxQ1Z6R__text_DbHMj3 h2 {text-align: center;}"
+        "[data-testid=\"section-content\"] {max-width: 992px; margin-inline: auto;}"
       ],
       "name": "t:names.faq_section",
       "settings": {
