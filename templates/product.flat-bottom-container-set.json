@@ -719,7 +719,7 @@
           "settings": {
             "source": "uploaded",
             "video": "shopify://files/videos/7ff7789290634c5f80896466ab132638.mp4",
-            "video_autoplay": true,
+            "video_autoplay": false,
             "video_loop": true,
             "alt": "",
             "custom_width": 25,
